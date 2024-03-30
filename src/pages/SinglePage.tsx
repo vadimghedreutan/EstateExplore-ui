@@ -54,7 +54,7 @@ const nearPlaces = [
 
 function SinglePage() {
 	return (
-		<div className="flex flex-col md:flex-row h-full px-8 max-w-7xl mx-auto">
+		<div className="flex flex-col md:flex-row h-full sm:px-8 px-3 max-w-7xl mx-auto">
 			<div className="md:flex-auto md:w-64">
 				<div className="pr-3">
 					<Slider images={singlePostData.images} />

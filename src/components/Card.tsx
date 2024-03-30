@@ -34,7 +34,7 @@ function Card({ id, title, img, bedroom, bathroom, price, address }: IPost) {
 					$ {price}
 				</p>
 				<div className="flex items-center justify-between">
-					<div className="flex items-center space-x-4">
+					<div className="flex flex-col pt-2 sm:flex-row sm:space-x-4">
 						<div className="flex items-center space-x-2">
 							<img src="/bed.png" alt="" className="w-4 h-4" />
 							<span className="text-sm">{bedroom} Bedroom</span>

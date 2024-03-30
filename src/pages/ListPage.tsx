@@ -7,10 +7,10 @@ function ListPage() {
 	const data = listData
 
 	return (
-		<div className="flex px-8 max-w-7xl mx-auto">
+		<div className="flex px-3 max-w-7xl mx-auto">
 			<div className="flex-auto w-64 py-9">
 				<FilterBar />
-				<div className="flex flex-col gap-5 pt-6 pr-3">
+				<div className="flex flex-col gap-5 pt-6 sm:pr-3">
 					{data.map((item) => (
 						<Card key={item.id} {...item} />
 					))}

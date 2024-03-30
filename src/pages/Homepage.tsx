@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react"
 
 function Homepage() {
 	return (
-		<div className="px-8 max-w-7xl mx-auto">
+		<div className="sm:px-8 px-3 max-w-7xl mx-auto">
 			<div className="flex">
 				<div className="flex-auto w-64 pt-9">
 					<div className="flex flex-col space-y-8 pr-6">
@@ -25,7 +25,7 @@ function Homepage() {
 				</div>
 			</div>
 
-			<section className="py-20">
+			<section className="sm:py-20 py-10">
 				<div className="flex flex-col lg:flex-row gap-2">
 					<div className="lg:flex-auto lg:w-32">
 						<div className="flex flex-col space-y-4">
@@ -73,7 +73,7 @@ function Homepage() {
 				</div>
 			</section>
 
-			<section className="py-20">
+			<section className="sm:py-20 py-10">
 				<div className="flex gap-5">
 					<div className="flex-auto w-64">
 						<div className="flex flex-col space-y-4">
@@ -111,7 +111,7 @@ function Homepage() {
 						</div>
 					</div>
 
-					<div className="flex-auto w-32">
+					<div className="sm:flex-auto sm:w-32 hidden">
 						<div className="relative aspect-square w-full overflow-hidden rounded-2xl">
 							<img
 								src="/kisspng-skyscraper.png"
